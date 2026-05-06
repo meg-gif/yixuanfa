@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "name": "平台管理员",
+      "email": "admin@example.com",
+      "roles": [
+        "admin",
+        "buyer",
+        "seller"
+      ],
+      "primaryRole": "admin",
+      "sellerStatus": "approved",
+      "passwordHash": "c8d0f96e6d16086eee3be564817af84273d9cc142dea09aaf2007764feacc38a",
+      "balance": 2480,
+      "createdAt": "2026-04-22T04:17:12.457Z"
+    },
+    {
+      "id": "user_buyer",
+      "name": "演示买家",
+      "email": "buyer@example.com",
+      "roles": [
+        "buyer"
+      ],
+      "primaryRole": "buyer",
+      "sellerStatus": "none",
+      "passwordHash": "b3b332b8638c91dcdbc0351ddee4b080c44bb8c941f170f575911ecbcd5abe91",
+      "balance": 2480,
+      "createdAt": "2026-04-22T04:17:12.458Z"
+    },
+    {
+      "id": "user_seller",
+      "name": "演示卖家",
+      "email": "seller@example.com",
+      "roles": [
+        "buyer",
+        "seller"
+      ],
+      "primaryRole": "seller",
+      "sellerStatus": "approved",
+      "passwordHash": "21c8b26f4cd77f0c6eecf876326cbc75f665354784704fb2c2c560e7030fb931",
+      "balance": 0,
+      "createdAt": "2026-04-22T04:17:12.458Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "875b2135051d7b9846b491efc7eacf52ea7e2fb1a5d53779",
+      "userId": "user_admin",
+      "createdAt": "2026-04-22T04:28:49.007Z"
+    },
+    {
+      "token": "afb620edb4d5851e8a25eaac20ca10aec85bfc52e69f5efe",
+      "userId": "user_buyer",
+      "createdAt": "2026-04-24T04:03:55.029Z"
+    },
+    {
+      "token": "00c74070f84a8e15f808777ec0f5e9f62f475d1174e58a9a",
+      "userId": "user_seller",
+      "createdAt": "2026-04-24T04:04:35.141Z"
+    },
+    {
+      "token": "9ad4c1ac808b7ff86d25762571466ae640c7e073013567b7",
+      "userId": "user_buyer",
+      "createdAt": "2026-04-24T08:17:08.858Z"
+    },
+    {
+      "token": "72a92c082cd8012b9c44e0fa11bb540009942a3edbcf3da0",
+      "userId": "user_buyer",
+      "createdAt": "2026-05-06T05:51:00.380Z"
+    },
+    {
+      "token": "535b11aabff4d22865079164973059eb18de2f8c264e65f1",
+      "userId": "user_seller",
+      "createdAt": "2026-05-06T05:51:15.829Z"
+    },
+    {
+      "token": "955e5d8bb758e55141b2153610e7377aeceecea9269e7e82",
+      "userId": "user_buyer",
+      "createdAt": "2026-05-06T06:05:47.083Z"
+    },
+    {
+      "token": "a030825651731d4f0e59655cce5a320b6704873f6e93e453",
+      "userId": "user_seller",
+      "createdAt": "2026-05-06T06:06:01.618Z"
+    },
+    {
+      "token": "aa19d0b343bce223d9d8984a7d1ef8a18d278e82e4c02a21",
+      "userId": "user_buyer",
+      "createdAt": "2026-05-06T06:06:20.392Z"
+    },
+    {
+      "token": "4a223384f1880fe013585b8a7b47c90404860b46942d1d3f",
+      "userId": "user_buyer",
+      "createdAt": "2026-05-06T06:53:37.751Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "tech-daily-us",
+      "name": "NorthTech Daily",
+      "domain": "northtechdaily.com",
+      "country": "美国",
+      "language": "英文",
+      "category": "科技媒体",
+      "dr": 72,
+      "da": 68,
+      "traffic": 420000,
+      "trafficLabel": "420K",
+      "indexed": true,
+      "status": "approved",
+      "submittedBy": "user_seller",
+      "createdAt": "2026-04-22T04:17:12.458Z",
+      "description": "覆盖 SaaS、AI、消费电子和创业公司动态。",
+      "sellers": [
+        {
+          "id": "seller_owner_tech",
+          "userId": "user_seller",
+          "role": "Owner",
+          "name": "网站所有者",
+          "price": 680,
+          "linkType": "Dofollow",
+          "indexed": true,
+          "sponsored": false,
+          "delivery": "5-7天",
+          "status": "approved",
+          "note": "网站所有者直接接单"
+        },
+        {
+          "id": "seller_reseller_tech",
+          "userId": "user_seller",
+          "role": "Reseller",
+          "name": "认证 SEO 合作方",
+          "price": 590,
+          "linkType": "Dofollow",
+          "indexed": true,
+          "sponsored": false,
+          "delivery": "7-10天",
+          "status": "approved",
+          "note": "网站合作编辑，代理商接单"
+        },
+        {
+          "id": "seller_e7fb7370faf8d288",
+          "userId": "user_admin",
+          "role": "Owner",
+          "name": "网站所有者",
+          "price": 266,
+          "linkType": "Dofollow",
+          "indexed": false,
+          "sponsored": false,
+          "delivery": "3",
+          "note": "",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "chain-pulse",
+      "name": "Chain Pulse Weekly",
+      "domain": "chainpulseweekly.io",
+      "country": "美国",
+      "language": "英文",
+      "category": "区块链媒体",
+      "dr": 69,
+      "da": 63,
+      "traffic": 310000,
+      "trafficLabel": "310K",
+      "indexed": true,
+      "status": "approved",
+      "submittedBy": "user_seller",
+      "createdAt": "2026-04-22T04:17:12.458Z",
+      "description": "关注 Web3 基础设施、交易所、钱包、NFT 与链上工具。",
+      "sellers": [
+        {
+          "id": "seller_reseller_chain",
+          "userId": "user_seller",
+          "role": "Reseller",
+          "name": "Web3 PR 服务商",
+          "price": 880,
+          "linkType": "Dofollow",
+          "indexed": true,
+          "sponsored": false,
+          "delivery": "3-6天",
+          "status": "approved",
+          "note": "适合项目公告和品牌稿"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "order_73fcb3225969d11f",
+      "buyerId": "user_admin",
+      "sellerUserId": "user_admin",
+      "mediaId": "tech-daily-us",
+      "sellerId": "seller_e7fb7370faf8d288",
+      "mediaName": "NorthTech Daily",
+      "sellerName": "网站所有者",
+      "amount": 266,
+      "status": "pending_payment",
+      "brandName": "43244",
+      "targetUrl": "4322342432",
+      "anchor": "42",
+      "title": "未命名稿件",
+      "contentHtml": "\n            <h2>请在这里粘贴或编辑你的自备稿件</h2>\n            <p>支持设置 H1 / H2 / H3 标题23432432、插入链接和图片占位。当前为前端原型编辑器。</p>\n          ",
+      "notes": "",
+      "publishUrl": "",
+      "createdAt": "2026-04-22T04:31:14.919Z",
+      "updatedAt": "2026-04-22T04:31:14.919Z"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "deposit_d4811a6abf0a5626",
+      "userId": "user_admin",
+      "method": "USDT",
+      "network": "TRC20",
+      "amount": 1000,
+      "status": "pending",
+      "createdAt": "2026-04-22T04:30:49.499Z",
+      "confirmedAt": ""
+    }
+  ]
+}
