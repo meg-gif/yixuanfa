@@ -1,4 +1,4 @@
-[API.md](https://github.com/user-attachments/files/27433534/API.md)
+[API.md](https://github.com/user-attachments/files/27433602/API.md)
 # 海媒通 MVP API
 
 当前后端是零依赖 Node.js 原型，数据存储在 `server/data/app-data.json`。
